@@ -304,7 +304,7 @@ input, select, textarea {
 		width: 6750px;
 	}
 
-/* Overlay */
+/* Overlay
 
 	@-moz-keyframes overlay {
 		0% {
@@ -362,7 +362,7 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 		width: 100%;
-	}
+	} */
 
 /* Main */
 
@@ -804,6 +804,7 @@ input, select, textarea {
 		}
 
 		#bg {
+
 			background-size: 1500px auto;
 			width: 4500px;
 		} }
@@ -886,7 +887,7 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 750px auto;
+			background-size: contain;
 			width: 2250px;
 		} }
 
