@@ -3843,7 +3843,7 @@ input, select, textarea {
 					height: calc(100vh - 44px);
 				}
 
-				#banner .content {
+				/* #banner .content {
 					padding: 4.0625em 1.5em 4.875em 1.5em;
 				}
 
@@ -3854,7 +3854,7 @@ input, select, textarea {
 					#banner .content .image {
 						height: 9em;
 						width: 9em;
-					}
+					} */
 
 		/* Nav */
 
