@@ -3450,6 +3450,26 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
+		-moz-animation: banner 1s 2.25s forwards;
+		-webkit-animation: banner 1s 2.25s forwards;
+		-ms-animation: banner 1s 2.25s forwards;
+		animation: banner 1s 2.25s forwards;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		cursor: default;
+		display: inline-block;
+		opacity: 0;
+		position: relative;
+		text-align: center;
+		top: -1em;
+		vertical-align: middle;
+		width: 90%;
 		background-attachment: fixed;
 		background-color: #272833;
 		background-image: url("../../images/banner.jpg");
@@ -3471,10 +3491,7 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			/* background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");; */
+			
 			content: '';
 			display: block;
 			height: 100%;
