@@ -3,33 +3,31 @@
 @import 'libs/mixins';
 @import 'libs/vendor';
 @import 'libs/breakpoints';
+@import 'libs/html-grid';
 
 /*
-	Aerial by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Wrapper */
+/* Loader */
 
-	#wrapper {
-		opacity: 1 !important;
-	}
+	body.landing {
 
-/* Overlay */
+		&.is-preload {
 
-	#overlay {
-		opacity: 1 !important;
-	}
+			// Spinner (active)
 
-/* Header */
+				&:before {
+					display: none;
+				}
 
-	#header {
-		opacity: 1 !important;
+			// Overlay (active)
 
-		nav {
-			li {
-				opacity: 1 !important;
-			}
+				&:after {
+					display: none;
+				}
+
 		}
 	}
