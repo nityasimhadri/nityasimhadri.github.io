@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #ffffff;
+		background-image: url("../../images/banner.jpg");
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -132,13 +132,13 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
-		color: white;
+		color: black;
 		font-style: italic;
 		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: white;
+		color: darkkhaki;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -3137,7 +3137,7 @@ input, select, textarea {
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
-			background: darkkhaki;
+			background: white;
 		}
 
 		.spotlight .goto-next {
@@ -3159,7 +3159,7 @@ input, select, textarea {
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
 			padding: 3em 0 2em 0;
-			/* width: 70%; */
+			width: 70%;
 			align-content: center;
 		}
 
