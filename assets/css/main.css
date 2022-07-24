@@ -3672,6 +3672,13 @@ input, select, textarea {
 				width: 25em;
 			}
 
+			.spotlight .image.main {
+				display: block;
+				margin: 0;
+				max-height: 40vh;
+				overflow: hidden;
+			}
+
 		/* Wrapper */
 
 			.wrapper {
@@ -3897,7 +3904,7 @@ input, select, textarea {
 				}
 
 					#banner .content header h2 {
-						font-size: 1.5em;
+						font-size: 2em;
 					}
 
 					#banner .content .image {
@@ -3936,7 +3943,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #272833;
+				background: darkkhaki;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
