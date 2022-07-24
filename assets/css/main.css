@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background-image: url("../../images/banner.jpg");
+		background-color: white;
 		background-position: 0%;
 	}
 
@@ -3003,6 +3003,7 @@ input, select, textarea {
 /* Spotlight */
 
 	.spotlight {
+		background-image: url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
@@ -3137,7 +3138,7 @@ input, select, textarea {
 			background: transparent;
 			border-style: solid;
 			opacity: 1;
-			position: absolute;
+			position: sticky;
 			background: white;
 		}
 
@@ -3869,7 +3870,7 @@ input, select, textarea {
 			}
 
 				.spotlight .image.main {
-					max-height: 60vh;
+					max-height: auto;
 				}
 
 				.spotlight .content {
