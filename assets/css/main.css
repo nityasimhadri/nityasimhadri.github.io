@@ -2568,6 +2568,7 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+		
 
 /* List */
 
@@ -3098,6 +3099,21 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 		}
+
+		.spotlight .image {
+			border-radius: 100%;
+			display: inline-block;
+			height: 18em;
+			margin-left: 3em;
+			vertical-align: middle;
+			width: auto;
+		}
+
+			.spotlight .image img {
+				border-radius: 100%;
+				display: block;
+				width: 100%;
+			}
 
 		.spotlight .image.main {
 			display: none;
