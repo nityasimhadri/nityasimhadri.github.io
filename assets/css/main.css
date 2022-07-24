@@ -2733,6 +2733,7 @@ input, select, textarea {
 			width: 200px;
   			height: 300px;
   			object-fit: cover;
+			align-content: center;
 		}
 
 		.image.left {
