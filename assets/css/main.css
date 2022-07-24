@@ -3870,10 +3870,7 @@ input, select, textarea {
 			}
 
 			.spotlight .image.main {
-				display: block;
-				margin: 0;
-				max-height: 40vh;
-				overflow: hidden;
+				max-height: auto;
 			}
 
 		/* Wrapper */
