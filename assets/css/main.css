@@ -3105,6 +3105,7 @@ input, select, textarea {
 
 			.spotlight .image.main img {
 				position: relative;
+				size: 100 em;
 			}
 
 		.spotlight .content {
