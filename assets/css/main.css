@@ -3305,6 +3305,8 @@ input, select, textarea {
 			/* vertical-align: middle; */
 			width: auto;
 			padding-left: 40%;
+			object-fit: contain;
+    		align-self: flex-start;
 		}
 
 			.spotlight .image img {
@@ -3321,7 +3323,9 @@ input, select, textarea {
 				/* size: 100 em; */
 				/* width: 200px;
   				height: 300px; */
-  				object-fit: cover;
+  				/* object-fit: cover; */
+				object-fit: contain;
+				align-self: flex-start;
 			}
 
 		.spotlight .content {
