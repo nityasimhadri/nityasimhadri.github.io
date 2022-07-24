@@ -132,7 +132,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
-		color: black
+		color: white
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3136,9 +3136,10 @@ input, select, textarea {
 		}
 
 		.spotlight.top .content, .spotlight.bottom .content {
-			left: 0;
-			padding: 5.1em 0 3.1em 0;
-			width: 100%;
+			/* left: 0; */
+			padding: 3em 0 2em 0;
+			width: 70%;
+			align-content: center;
 		}
 
 		.spotlight.top .content {
