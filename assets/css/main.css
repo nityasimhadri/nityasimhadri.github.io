@@ -3069,7 +3069,6 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -3095,7 +3094,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			background: transparent;
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3776,6 +3775,7 @@ input, select, textarea {
 
 			h3 {
 				font-size: 1.2em;
+				color: black !important;
 			}
 
 			h4 {
