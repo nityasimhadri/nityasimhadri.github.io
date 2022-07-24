@@ -3003,7 +3003,6 @@ input, select, textarea {
 /* Spotlight */
 
 	.spotlight {
-		background-image: url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
@@ -3138,7 +3137,7 @@ input, select, textarea {
 			background: transparent;
 			border-style: solid;
 			opacity: 1;
-			position: sticky;
+			position: absolute;
 			background: white;
 		}
 
@@ -3159,9 +3158,9 @@ input, select, textarea {
 		}
 
 		.spotlight.top .content, .spotlight.bottom .content {
-			left: 15%;
+			left: 0;
 			padding: 3em 0 2em 0;
-			width: 70%;
+			/* width: 70%; */
 			align-content: center;
 		}
 
