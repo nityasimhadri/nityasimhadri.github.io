@@ -3300,7 +3300,7 @@ input, select, textarea {
 		.spotlight .image {
 
 			display: inline-block;
-			height: 300px;
+			height: 400px;
 			/* margin-left: 3em; */
 			/* vertical-align: middle; */
 			width: auto;
@@ -3319,8 +3319,8 @@ input, select, textarea {
 			.spotlight .image.main img {
 				position: relative;
 				/* size: 100 em; */
-				width: 200px;
-  				height: 300px;
+				/* width: 200px;
+  				height: 300px; */
   				object-fit: cover;
 			}
 
@@ -4214,7 +4214,7 @@ input, select, textarea {
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
-						font-size: 300px;
+						font-size: 18px;
 						height: 44px;
 						left: 0;
 						line-height: 44px;
