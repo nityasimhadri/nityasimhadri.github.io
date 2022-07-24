@@ -3294,17 +3294,20 @@ input, select, textarea {
 			height: 100%;
 			left: 0;
 			top: 0;
-			width: 100%;
+			width:auto
+			
 		}
 
 		.spotlight .image {
 
 			display: inline-block;
-			height: 400px;
+			width: 225px;
+			height: 300px;
 			/* margin-left: 3em; */
 			/* vertical-align: middle; */
 			width: auto;
-			padding-left: 40%;
+			/* padding-left: 40%; */
+			align-content: center;
 			object-fit: contain;
     		align-self: flex-start;
 		}
