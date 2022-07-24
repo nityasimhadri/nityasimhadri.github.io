@@ -3298,11 +3298,13 @@ input, select, textarea {
 		}
 
 		.spotlight .image {
+
 			display: inline-block;
-			height: fit-content;
+			height: 300px;
 			/* margin-left: 3em; */
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: auto;
+			padding-left: 40%;
 		}
 
 			.spotlight .image img {
