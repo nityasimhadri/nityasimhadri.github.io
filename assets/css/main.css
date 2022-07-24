@@ -3963,6 +3963,7 @@ input, select, textarea {
 					margin: 0;
 					max-height: 40vh;
 					overflow: hidden;
+					width: 100%;
 				}
 
 				.spotlight .image {
@@ -4377,6 +4378,7 @@ input, select, textarea {
 
 			.spotlight .image.main {
 				max-height: 50vh;
+				width: 100%;
 			}
 
 			.spotlight .content {
