@@ -4112,7 +4112,7 @@ input, select, textarea {
 			}
 
 				.spotlight .image.main {
-					max-height: auto;
+					max-height: 60vh;
 				}
 
 				.spotlight.image {
