@@ -84,6 +84,7 @@ input, select, textarea {
 
 	html, body {
 		background-image: url("../../images/banner.jpg");
+		background-position: 0%;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3157,7 +3158,7 @@ input, select, textarea {
 		}
 
 		.spotlight.top .content, .spotlight.bottom .content {
-			left: 0;
+			left: 15%;
 			padding: 3em 0 2em 0;
 			width: 70%;
 			align-content: center;
