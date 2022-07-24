@@ -132,7 +132,9 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
-		color: white
+		color: white;
+		font-style: italic;
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -155,8 +157,10 @@ input, select, textarea {
 	}
 
 	h3 {
+		text-align: center;
 		font-size: 1.35em;
 		line-height: 1.5em;
+		font-style: italic;
 	}
 
 	h4 {
