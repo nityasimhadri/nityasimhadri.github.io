@@ -152,7 +152,6 @@ input, select, textarea {
 		font-weight: 900;
 		letter-spacing: -0.035em;
 		line-height: 1.5em;
-		color: white !important
 	}
 
 	h3 {
@@ -2988,6 +2987,7 @@ input, select, textarea {
 		height: 100vh;
 		overflow: hidden;
 		position: relative;
+		background-color: darkkhaki;
 	}
 
 		.spotlight:nth-last-of-type(1) {
