@@ -3297,7 +3297,6 @@ input, select, textarea {
 		}
 
 		.spotlight .image {
-			border-radius: 100%;
 			display: inline-block;
 			height: 18em;
 			margin-left: 3em;
@@ -3306,7 +3305,6 @@ input, select, textarea {
 		}
 
 			.spotlight .image img {
-				border-radius: 100%;
 				display: block;
 				width: 100%;
 			}
