@@ -158,10 +158,10 @@ input, select, textarea {
 	}
 
 	h3 {
-		text-align: center;
+		text-align: left;
 		font-size: 1.35em;
 		line-height: 1.5em;
-		font-style: italic;
+		font-weight: 200;
 	}
 
 	h4 {
