@@ -2368,6 +2368,7 @@ input, select, textarea {
 		font-size: 1.1em;
 		margin-top: -0.8em;
 		line-height: 1.75em;
+		text-align: center !important;
 	}
 
 	header h4 + p,
@@ -2376,6 +2377,7 @@ input, select, textarea {
 		font-size: 0.9em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
+		text-align: center !important;
 	}
 
 	header.major {
