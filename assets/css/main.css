@@ -3606,6 +3606,7 @@ header.major .date:before, header.major .date:after {
 		}
 
 		.spotlight:before {
+			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
