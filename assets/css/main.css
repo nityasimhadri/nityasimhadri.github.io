@@ -3335,11 +3335,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-<<<<<<< HEAD
 			background: white;
-=======
-			background: rgba(23, 24, 32, 0.95);
->>>>>>> parent of 9f7dcff... buttons and links
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
