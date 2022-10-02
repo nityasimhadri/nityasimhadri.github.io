@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 	video, img {
-		width: 100%;
+		width: 75%;
 		height: auto;
 	}
 
@@ -2439,7 +2439,7 @@ input, select, textarea {
 	header.major {
 		margin: 0 0 4em 0;
 		position: relative;
-		text-align: center;
+		/* text-align: center; */
 	}
 
 		header.major:after {
